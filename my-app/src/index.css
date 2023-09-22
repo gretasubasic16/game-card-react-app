@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+  font-family:  'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #030b17;
+ 
+}
+
+
+
+h1 {
+  width: 200px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  color: #9e9db9;
+  
+
+}
+
+h2 {
+  font-weight: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #9e9db9;
+  
+}
+
+h3 {
+  color: #9e9db9;
+  font-size: 24px;
+}
+
+h4 {
+  color: #9e9db9;
+  font-size: 16px;
+  
+}
+.amount {
+  background-color: none;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 60px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 3rem;
+  margin-right: 4rem;
+  margin-top: 3rem;
+  
+  
+  
+}
+
+span {
+  position: absolute;
+  top: 30px;
+  right: 46px;
+  background-color: #9e9db9;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+ 
+  
+  
+}
+
+svg {
+  
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  color: #fff;
+}
+
+
+
+
+.game-wrapper {
+  background: #0e1c2a;
+  margin: 0 auto;
+  width: 800px;
+  border-radius: 1rem;
+  backdrop-filter: blur(40px);
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+
+  
+
+  
+  
+}
+
+
+
+.game-container {
+  margin-top: 2px;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2px;
+  width: 200px;
+  align-items: center;
+  
+  
+
+  
+  
+}
+
+.game-info {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: end;
+  margin-bottom: 2.5rem;
+}
+
+img {
+  margin-right: 3rem;
+
+
+}
+
+.btn {
+  
+  width: 100px;
+  background-color: #603dc2;
+  color: #fff;
+  border-radius: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border: none;
+}
+
+
+
+.amount-btn {
+  background: #603dc2;
+  margin-bottom: 10px;
+  width: 70px;
+  height: 30px;
+  margin: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+
+}
+
+.amount-btn:hover {
+  background-color: #00d8c4;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.clear-cart-btn {
+  background: #603dc2;
+  margin-bottom: 10px;
+  width: 160px;
+  height: 50px;
+  margin: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+button:hover {
+  background-color: #00d8c4;
+}
+
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.cart-container {
+ 
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+  margin-left: -3rem;
+  
+}
+
+
+.clear-btn {
+  margin: 0 auto;
+  width: 200px;
+  height: 80px;
+  border: none;
+  font-size: 25px;
+  border:1px solid white;
+  margin-bottom: 2rem;
+  color: white;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  
+}
+
+.clear-btn:hover {
+  background: violet;
+}
+
+.clear-cart-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  color: white;
+  
+}
+
+.cart {
+  color: white;
+  font-size: 30px;
+}
+
